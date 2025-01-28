@@ -22,7 +22,7 @@ const whoarewe = () => {
         </p>
       </div>
 
-      <div className="py-7 flex justify-center">
+      <div className="pt-7 flex justify-center">
         <button className=" flex gap-2 items-center bg-red-600 p-4 rounded-3xl font-bold text-white">
         <IoIosMore size={27}/>
           Learn more
