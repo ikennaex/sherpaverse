@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div className='container mx-auto bg-stone-200 py-7'>
         <div className='px-7'>
-            <h2 className='text-xl'>Feel Free to Contact Us</h2>
+            <h2 className='text-2xl font-bold'>Feel Free to Contact Us</h2>
 
             <form className='flex flex-col gap-4 pt-7' action="">
                 <input className='bg-white border w-full rounded-md h-12 p-4 ' placeholder='Name:' type="text" />

@@ -31,9 +31,9 @@ const Services = () => {
   return (
     <div className='container mx-auto pb-7 px-7'>
       <div className="text-center flex justify-center items-center py-7">
-        <div className="h-2 w-1/2 bg-red-600"></div>
-        <h2 className="text-2xl w-full">Services we render</h2>
-        <div className="h-2 w-1/2 bg-red-600"></div>
+        <div className="h-1 w-1/2 bg-red-600"></div>
+        <h2 className="text-2xl font-bold w-full">Services we render</h2>
+        <div className="h-1 w-1/2 bg-red-600"></div>
       </div>
 
       <div className="grid grid-cols-2 gap-4">

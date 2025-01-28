@@ -7,6 +7,8 @@ import { FaFacebook, FaInstagram } from "react-icons/fa";
 
 
 const Footer = () => {
+    const date = new Date()
+    const year = date.getFullYear()
   return (
     <div className='container mx-auto '>
         <div className='px-7 bg-gray-900 py-7'>
@@ -38,7 +40,7 @@ const Footer = () => {
                     </a>
                 </div>
 
-                <p className='text-center text-sm my-7'>&copy; 2025 Sherpaverse</p>
+                <p className='text-center text-sm my-7'>&copy; {year} Sherpaverse</p>
             </div>
         </div>
     </div>
