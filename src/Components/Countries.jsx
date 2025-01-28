@@ -30,7 +30,7 @@ const Countries = () => {
                 return (
 
                 <div className=''>
-                    <img className=' h-7 w-13' src= {flag.flag} alt= {flag.name} />
+                    <img className=' h-7 w-12' src= {flag.flag} alt= {flag.name} />
                 </div>
                 )
             })}
