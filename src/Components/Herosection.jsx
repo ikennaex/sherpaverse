@@ -1,6 +1,6 @@
 import React from 'react'
 import { heroimg } from '../import'
-import { FaWhatsapp } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa6";
 import { MdOutlineMail } from "react-icons/md";
 
 
