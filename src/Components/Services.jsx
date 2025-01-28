@@ -39,9 +39,9 @@ const Services = () => {
       <div className="grid grid-cols-2 gap-4">
         {services.map((service, index) => (
           <div key={index}>
-            <div className=" bg-red-600 h-full ">
+            <div className=" bg-red-600 h-40">
               <img className="w-full h-26 object-cover" src={service.img} alt="" />
-              <h3 className="text-white text-xl text-center mt-4">{service.name}</h3>
+              <h3 className="text-white py-4 leading-none text-sm text-center ">{service.name}</h3>
             </div>
           </div>
         ))}

@@ -7,7 +7,8 @@ import leisure from "./assets/leisure.jpg"
 import trainings from "./assets/trainings.jpg"
 import studyabroad from "./assets/studyabroad.jpg"
 import tourism from "./assets/tourism.jpg"
+import whychooseimg from "./assets/whychooseimg.jpg"
 
 export {
-    logo, heroimg, whoareweimg, visa, conceirge,leisure,trainings, studyabroad, tourism
+    logo, heroimg, whoareweimg, visa, conceirge,leisure,trainings, studyabroad, tourism, whychooseimg
 }
