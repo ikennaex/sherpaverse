@@ -2,6 +2,7 @@ import React from 'react'
 import { heroimg } from '../import'
 import { FaWhatsapp } from "react-icons/fa6";
 import { MdOutlineMail } from "react-icons/md";
+import { Link } from 'react-router';
 
 
 const Herosection = () => {
@@ -10,6 +11,7 @@ const Herosection = () => {
       <div className='flex justify-center'>
         <div className='h-135 flex items-center justify-center overflow-hidden'>
           <img className='object-cover w-full h-full' src= {heroimg} alt="" />
+        
           <div class="absolute inset-0 bg-black opacity-80"></div>
         </div>
 

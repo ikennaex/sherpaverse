@@ -5,8 +5,6 @@ import Whoarewe from '../../Components/Whoarewe'
 import Services from '../../Components/Services'
 import Whychooseus from '../../Components/Whychooseus'
 import Whatpeoplesay from '../../Components/Whatpeoplesay'
-import Contact from '../../Components/Contact'
-import Footer from '../../Components/Footer'
 
 const Homepage = () => {
   return (
@@ -17,8 +15,6 @@ const Homepage = () => {
         <Services />
         <Whychooseus />
         <Whatpeoplesay />
-        <Contact />
-        <Footer />
     </div>
   )
 }

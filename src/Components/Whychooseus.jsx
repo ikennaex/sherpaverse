@@ -29,9 +29,9 @@ const Whychooseus = () => {
 
         <div className='absolute top-1 w-full px-7'>
         <div className="text-center flex justify-center items-center py-7">
-        <div className="h-2 w-1/2 bg-red-600"></div>
+        <div className="h-1 w-1/2 bg-red-600"></div>
         <h2 className="text-2xl w-full text-white">Why Choose Sherpaverse</h2>
-        <div className="h-2 w-1/2 bg-red-600"></div>
+        <div className="h-1 w-1/2 bg-red-600"></div>
       </div>
 
       <p className='text-center text-white leading-none'>There are numerous reason why people choose SERPAVERSE and have never regretted there decision</p>

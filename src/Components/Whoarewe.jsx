@@ -1,6 +1,7 @@
 import React from "react";
 import { whoareweimg } from "../import";
 import { IoIosMore } from "react-icons/io";
+import { Link } from "react-router";
 
 
 const whoarewe = () => {
@@ -23,10 +24,12 @@ const whoarewe = () => {
       </div>
 
       <div className="pt-7 flex justify-center">
+        <Link to = "/about-us" >
         <button className=" flex gap-2 items-center bg-red-600 p-4 rounded-3xl font-bold text-white">
         <IoIosMore size={27}/>
           Learn more
         </button>
+        </Link>
       </div>
     </div>
   );
