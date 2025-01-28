@@ -47,9 +47,9 @@ const Services = () => {
         ))}
       </div>
 
-      <div className="text-center mt-10">
+      {/* <div className="text-center mt-10">
         <a href="#" className="btn btn-primary">Discover More</a>
-      </div>
+      </div> */}
     </div>
   )
 }
