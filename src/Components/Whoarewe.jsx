@@ -5,7 +5,7 @@ import { IoIosMore } from "react-icons/io";
 
 const whoarewe = () => {
   return (
-    <div className="container mx-auto py-7 px-7">
+    <div className="container mx-auto pb-7 my-7 px-7 bg-stone-200">
       <div className="text-center flex justify-center items-center py-7">
         <div className="h-2 w-1/2 bg-red-600"></div>
         <h2 className="text-2xl w-full">Who are we</h2>
