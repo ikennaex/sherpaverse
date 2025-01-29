@@ -10,8 +10,8 @@ const Footer = () => {
     const date = new Date()
     const year = date.getFullYear()
   return (
-    <div className='container mx-auto '>
-        <div className='lg:px-40 lg:py-20 px-7 bg-gray-900 py-7'>
+    <div className=' bg-gray-900 py-7'>
+        <div className='lg:px-40 lg:py-20 px-7 container mx-auto '>
             <div className='flex items-center gap-2 text-white'>
                 <img className='h-8' src= {logo} alt="" />
                 <h3 className='text-md'>Sherpaverse LTD</h3>

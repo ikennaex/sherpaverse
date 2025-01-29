@@ -31,10 +31,10 @@ const Navbar = () => {
   }
 
   return (
-    <div className='flex justify-around container mx-auto p-4'>
-        <div className='lg:py-5 flex items-center justify-between'>
+    <div className='container mx-auto p-4'>
+        <div className='lg:py-0.5 flex items-center justify-between'>
         <Link to = "/" >
-        <img className='lg:h-18 lg:mr-60 h-12' src= {logo} alt="" />
+        <img className='lg:h-15 lg:mr-60 h-12' src= {logo} alt="" />
         </Link>
         <div className='hidden gap-20 mx-auto lg:flex'>
             {menuItems.map(menu => (

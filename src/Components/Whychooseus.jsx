@@ -20,14 +20,14 @@ const Whychooseus = () => {
         },
     ]
   return (
-    <div id='whychooseus' className='container mx-auto relative'>
+    <div id='whychooseus' className=' relative'>
       <div className='flex justify-center'>
         <div className='lg:h-120 h-190 flex items-center justify-center overflow-hidden'>
           <img className='lg:w-500 object-cover w-lvh h-full' src= {whychooseimg} alt="" />
           <div class="absolute inset-0 bg-red-950 opacity-60"></div>
         </div>
 
-        <div className='lg:px-40 lg:py-20 absolute top-1 w-full px-7'>
+        <div className='container mx-auto lg:px-40 lg:py-20 absolute top-1 w-full px-7'>
         <div className="text-center flex justify-center items-center py-7">
         <div className="h-1 w-1/2 bg-red-600"></div>
         <h2 className="text-2xl w-full text-white">Why Choose Sherpaverse</h2>
@@ -40,7 +40,7 @@ const Whychooseus = () => {
         <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 py-7'>
             {reasons.map(reason => (
                 <div className='' key={reason.index}>
-                    <div className='flex flex-col items-center justify-center py-5 bg-white text-black text-center'>
+                    <div className='flex flex-col items-center justify-center py-5 px-5 bg-white text-black text-center'>
                         <h3 className='text-xl'>{reason.index}</h3>
                         <h4 className='text-lg'>{reason.title}</h4>
                         <p className='text-sm text-gray-600'>{reason.desc}</p>
