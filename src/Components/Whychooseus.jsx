@@ -41,8 +41,8 @@ const Whychooseus = () => {
             {reasons.map(reason => (
                 <div className='' key={reason.index}>
                     <div className='flex flex-col items-center justify-center py-5 px-5 bg-white text-black text-center'>
-                        <h3 className='text-xl'>{reason.index}</h3>
-                        <h4 className='text-lg'>{reason.title}</h4>
+                        <h3 className='text-xl text-red-600 font-bold'>{reason.index}</h3>
+                        <h4 className='text-lg font-bold'>{reason.title}</h4>
                         <p className='text-sm text-gray-600'>{reason.desc}</p>
                     </div>
                 </div>

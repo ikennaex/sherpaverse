@@ -15,7 +15,7 @@ const whoarewe = () => {
       </div>
 
       <div className="lg:flex-row flex flex-col items-center lg:gap-10">
-        <img className="lg:h-100  pb-7" src={whoareweimg} alt="" />
+        <img className="lg:h-100 lg:max-w-full lg:w-full max-w-100 w-80 pb-7" src={whoareweimg} alt="" />
         <p className="text-justify">
           Sherpaverse Ltd is a travel concierge startup specializing in luxury
           travel, visa assistance, study abroad, M.I.C.E. tourism, leisure
