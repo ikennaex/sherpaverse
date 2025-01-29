@@ -23,7 +23,7 @@ const Whychooseus = () => {
     <div id='whychooseus' className=' relative'>
       <div className='flex justify-center'>
         <div className='lg:h-120 h-190 flex items-center justify-center overflow-hidden'>
-          <img className='lg:w-500 object-cover w-lvh h-full' src= {whychooseimg} alt="" />
+          <img className='lg:w-500 object-cover w-500 h-full' src= {whychooseimg} alt="" />
           <div class="absolute inset-0 bg-red-950 opacity-60"></div>
         </div>
 

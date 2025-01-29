@@ -18,7 +18,7 @@ const Herosection = () => {
 
         <div className='lg:px-40 lg:top-1/4.5 container mx-auto absolute top-1/3 px-7 '>
         <h2 className='lg:text-6xl font-black text-3xl text-white pb-6 text-center slide-in-bottom'>SHERPAVERSE LTD</h2>
-        <p className='lg:text-2xl text-white text-center '>Sherpaverse Ltd is a travel concierge startup offering bespoke concierge services in luxury travel, visa assistance, study abroad, and M.I.C.E. tourism, leisure tourism and trainings</p>
+        <p className='lg:text-2xl text-white text-center slide-in-left'>Sherpaverse Ltd is a travel concierge startup offering bespoke concierge services in luxury travel, visa assistance, study abroad, and M.I.C.E. tourism, leisure tourism and trainings</p>
 
         <div className='pt-6 flex items-center justify-center gap-6'>
           <button className='lg:rounded-2xl lg:px-8 flex gap-2 items-center bg-red-600 p-4 rounded-3xl font-bold text-white'>
