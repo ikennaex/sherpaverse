@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { whoareweimg } from "../../import";
 
 const Whoarewepage = () => {
+  useEffect(()=>{
+    window.scrollTo(0, 0);
+  },[])
   return (
     <div className="bg-stone-200">
     <div className="lg:px-40 container mx-auto pb-7 px-7 ">
