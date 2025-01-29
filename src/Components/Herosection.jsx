@@ -9,21 +9,21 @@ const Herosection = () => {
   return (
     <div className='container mx-auto relative'>
       <div className='flex justify-center'>
-        <div className='md:h-auto h-135 flex items-center justify-center overflow-hidden'>
+        <div className='lg:h-auto h-135 flex items-center justify-center overflow-hidden'>
           <img className='object-cover w-full h-full' src= {heroimg} alt="" />
         
           <div class="absolute inset-0 bg-black opacity-80"></div>
         </div>
 
-        <div className='md:px-40 absolute top-1/3 px-7'>
-        <h2 className='md:text-8xl font-black text-3xl text-white pb-6 text-center'>SHERPAVERSE LTD</h2>
-        <p className='md:text-2xl text-white text-center'>Sherpaverse Ltd is a travel concierge startup offering bespoke concierge services in luxury travel, visa assistance, study abroad, and M.I.C.E. tourism, leisure tourism and trainings</p>
+        <div className='lg:px-40 absolute top-1/3 px-7'>
+        <h2 className='lg:text-8xl font-black text-3xl text-white pb-6 text-center'>SHERPAVERSE LTD</h2>
+        <p className='lg:text-2xl text-white text-center'>Sherpaverse Ltd is a travel concierge startup offering bespoke concierge services in luxury travel, visa assistance, study abroad, and M.I.C.E. tourism, leisure tourism and trainings</p>
 
         <div className='pt-6 flex items-center justify-center gap-6'>
-          <button className='md:rounded-2xl md:px-8 flex gap-2 items-center bg-red-600 p-4 rounded-3xl font-bold text-white'>
+          <button className='lg:rounded-2xl lg:px-8 flex gap-2 items-center bg-red-600 p-4 rounded-3xl font-bold text-white'>
           <FaWhatsapp size={27} />
             Chat us</button>
-          <button className=' md:rounded-2xl md:px-8 flex gap-2 items-center bg-red-600 p-4 rounded-3xl font-bold text-white'>
+          <button className=' lg:rounded-2xl lg:px-8 flex gap-2 items-center bg-red-600 p-4 rounded-3xl font-bold text-white'>
           <MdOutlineMail size={27} />
             Email us</button>
         </div>

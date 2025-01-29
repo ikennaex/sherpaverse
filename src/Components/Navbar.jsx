@@ -31,18 +31,18 @@ const Navbar = () => {
   }
 
   return (
-    <div className='container mx-auto p-4'>
-        <div className='flex items-center justify-between'>
+    <div className='flex justify-around container mx-auto p-4'>
+        <div className='lg:py-5 flex items-center justify-between'>
         <Link to = "/" >
-        <img className='md:ml-10 h-18' src= {logo} alt="" />
+        <img className='lg:h-18 lg:mr-60 h-12' src= {logo} alt="" />
         </Link>
-        <div className='hidden gap-20 mx-auto md:flex'>
+        <div className='hidden gap-20 mx-auto lg:flex'>
             {menuItems.map(menu => (
                     <p className='nav-menu'>{menu.name}</p>
             ))}
         </div>
 
-        <div className='md:hidden' onClick={toggle}>
+        <div className='lg:hidden' onClick={toggle}>
           {open? <IoClose  size={40} className='menu-icon' /> : <IoIosMenu size={40} className='menu-icon' /> }
         </div>
 
