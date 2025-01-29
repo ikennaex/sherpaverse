@@ -8,23 +8,23 @@ const Navbar = () => {
     const menuItems = [
       {
         name: "Home",
-        link: ""
+        link: "/"
       },
       {
         name: "Who are we",
-        link: ""
+        link: "/about-us"
       },
       {
         name: "Services we render",
-        link: ""
+        link: "#services"
       },
       {
         name: "Why choose Sherpaverse",
-        link: ""
+        link: "#whychooseus"
       },
       {
         name: "What people say about us",
-        link: ""
+        link: "#testimonials"
       },
     ]
 
@@ -59,9 +59,9 @@ const Navbar = () => {
             {menuItems.map((menu) => {
               return (
                 <div className='border-b'>
-                <Link to={menu.link} className='nav-link'>
+                <a href= {menu.link} className='nav-link'>
                   {menu.name}
-                </Link>
+                </a>
                 </div>
               )
             })}

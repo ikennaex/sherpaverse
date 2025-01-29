@@ -31,11 +31,11 @@ const Footer = () => {
                 </div>
 
                 <div className='flex items-center gap-2 text-sm pt-2'>
-                    <a href="">
+                    <a target='_blank' href="https://web.facebook.com/profile.php?id=61555161683538">
                     <FaFacebook  size={20}/>
                     </a>
                     
-                    <a href="">
+                    <a target='_blank' href="https://www.instagram.com/sherpaverseltd/">
                         <FaInstagram size={20} />
                     </a>
                 </div>

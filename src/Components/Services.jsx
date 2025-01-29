@@ -29,7 +29,7 @@ const Services = () => {
         },
     ]
   return (
-    <div className='container mx-auto pb-7 px-7'>
+    <div id='services' className='container mx-auto pb-7 px-7'>
       <div className="text-center flex justify-center items-center py-7">
         <div className="h-1 w-1/2 bg-red-600"></div>
         <h2 className="text-2xl w-full">Services we render</h2>

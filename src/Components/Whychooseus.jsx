@@ -20,7 +20,7 @@ const Whychooseus = () => {
         },
     ]
   return (
-    <div className='container mx-auto relative'>
+    <div id='whychooseus' className='container mx-auto relative'>
       <div className='flex justify-center'>
         <div className='h-190 flex items-center justify-center overflow-hidden'>
           <img className='object-cover w-lvh h-full' src= {whychooseimg} alt="" />
