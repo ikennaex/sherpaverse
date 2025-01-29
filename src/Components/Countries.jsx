@@ -25,7 +25,7 @@ const Countries = () => {
     ]
   return (
     <div className='container mx-auto'>
-        <div className='mx-7 flex flex-wrap gap-8 justify-center mt-7 '>
+        <div className='md:my-14 md:gap-22 mx-7 flex flex-wrap gap-8 justify-center mt-7 '>
             {flags.map((flag) => {
                 return (
 

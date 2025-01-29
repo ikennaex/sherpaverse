@@ -22,12 +22,12 @@ const Whychooseus = () => {
   return (
     <div id='whychooseus' className='container mx-auto relative'>
       <div className='flex justify-center'>
-        <div className='h-190 flex items-center justify-center overflow-hidden'>
-          <img className='object-cover w-lvh h-full' src= {whychooseimg} alt="" />
+        <div className='md:h-120 h-190 flex items-center justify-center overflow-hidden'>
+          <img className='md:w-500 object-cover w-lvh h-full' src= {whychooseimg} alt="" />
           <div class="absolute inset-0 bg-red-950 opacity-60"></div>
         </div>
 
-        <div className='absolute top-1 w-full px-7'>
+        <div className='md:px-40 md:py-20 absolute top-1 w-full px-7'>
         <div className="text-center flex justify-center items-center py-7">
         <div className="h-1 w-1/2 bg-red-600"></div>
         <h2 className="text-2xl w-full text-white">Why Choose Sherpaverse</h2>

@@ -7,23 +7,19 @@ import { IoClose } from "react-icons/io5";
 const Navbar = () => {
     const menuItems = [
       {
-        name: "Home",
-        link: "/"
-      },
-      {
-        name: "Who are we",
+        name: "About Us",
         link: "/about-us"
       },
       {
-        name: "Services we render",
+        name: "Services",
         link: "#services"
       },
       {
-        name: "Why choose Sherpaverse",
+        name: "Why choose Us",
         link: "#whychooseus"
       },
       {
-        name: "What people say about us",
+        name: "Testimonials",
         link: "#testimonials"
       },
     ]
@@ -38,7 +34,7 @@ const Navbar = () => {
     <div className='container mx-auto p-4'>
         <div className='flex items-center justify-between'>
         <Link to = "/" >
-        <img className='h-12' src= {logo} alt="" />
+        <img className='md:ml-10 h-18' src= {logo} alt="" />
         </Link>
         <div className='hidden gap-20 mx-auto md:flex'>
             {menuItems.map(menu => (
@@ -46,7 +42,7 @@ const Navbar = () => {
             ))}
         </div>
 
-        <div onClick={toggle}>
+        <div className='md:hidden' onClick={toggle}>
           {open? <IoClose  size={40} className='menu-icon' /> : <IoIosMenu size={40} className='menu-icon' /> }
         </div>
 

@@ -6,15 +6,15 @@ import { Link } from "react-router";
 
 const whoarewe = () => {
   return (
-    <div className="container mx-auto pb-7 my-7 px-7 bg-stone-200">
+    <div className="md:px-40 md:py-20 container mx-auto pb-7 my-7 px-7 bg-stone-200">
       <div className="text-center flex justify-center items-center py-7">
         <div className="h-1 w-1/2 bg-red-600"></div>
         <h2 className="text-2xl w-full">Who are we</h2>
         <div className="h-1 w-1/2 bg-red-600"></div>
       </div>
 
-      <div>
-        <img className="pb-7" src={whoareweimg} alt="" />
+      <div className="md:flex md:gap-10">
+        <img className="md:h-100 pb-7" src={whoareweimg} alt="" />
         <p className="text-justify">
           Sherpaverse Ltd is a travel concierge startup specializing in luxury
           travel, visa assistance, study abroad, M.I.C.E. tourism, leisure
@@ -25,7 +25,7 @@ const whoarewe = () => {
 
       <div className="pt-7 flex justify-center">
         <Link to = "/about-us" >
-        <button className=" flex gap-2 items-center bg-red-600 p-4 rounded-3xl font-bold text-white">
+        <button className="md:rounded-2xl md:px-10 flex gap-2 items-center bg-red-600 p-4 rounded-3xl font-bold text-white">
         <IoIosMore size={27}/>
           Learn more
         </button>
