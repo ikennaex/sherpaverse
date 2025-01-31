@@ -1,5 +1,6 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./whychooseuspage.css"
+import FadeIn from '../../Components/fadein'
 
 export const reasons = [
     {
@@ -36,6 +37,9 @@ export const reasons = [
 ]
 
 const Whychooseuspage = () => {
+      useEffect(()=>{
+        window.scrollTo(0, 0);
+      },[])
   return (
     <div className='container mx-auto'>
       <div className='lg:px-40 p-7'>
@@ -49,11 +53,13 @@ const Whychooseuspage = () => {
         {reasons.map((reason) => {
             return (
                 <div className='mt-7' key={reason.index}>
+                    <FadeIn duration = {100} >
                     <div className='flex flex-col slide-in-right items-center justify-center py-5 px-5 bg-stone-200 text-black text-center mb-6 rounded-3xl'>
                         <h3 className='text-xl text-red-600 font-bold'>{reason.index}</h3>
                         <h4 className='text-lg font-bold'>{reason.title}</h4>
                         <p className='text-sm text-gray-600'>{reason.desc}</p>
                     </div> 
+                    </FadeIn>
                 </div>
             )
         })}
