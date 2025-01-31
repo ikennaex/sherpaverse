@@ -21,9 +21,11 @@ const Herosection = () => {
         <p className='lg:text-2xl text-white text-center slide-in-left'>Sherpaverse Ltd is a travel concierge startup offering bespoke concierge services in luxury travel, visa assistance, study abroad, and M.I.C.E. tourism, leisure tourism and trainings</p>
 
         <div className='pt-6 flex items-center justify-center gap-6'>
+          <a target='_blank' href="https://wa.me/2349057559292">
           <button className='lg:rounded-2xl lg:px-8 flex gap-2 items-center bg-red-600 p-4 rounded-3xl font-bold text-white'>
           <FaWhatsapp size={27} />
             Chat us</button>
+          </a>
           <button className=' lg:rounded-2xl lg:px-8 flex gap-2 items-center bg-red-600 p-4 rounded-3xl font-bold text-white'>
           <MdOutlineMail size={27} />
             Email us</button>
