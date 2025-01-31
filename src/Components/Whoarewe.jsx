@@ -2,18 +2,23 @@ import React from "react";
 import { whoareweimg } from "../import";
 import { IoIosMore } from "react-icons/io";
 import { Link } from "react-router";
+import FadeIn from "./fadein";
 
 
 const whoarewe = () => {
   return (
     <div className="bg-stone-200">
     <div className="lg:px-40 lg:py-20 container mx-auto pb-7 my-7 px-7">
+      <FadeIn duration  = {100} >
       <div className="text-center flex justify-center items-center py-7">
         <div className="h-1 w-1/2 bg-red-600"></div>
         <h2 className="text-2xl w-full">Who are we</h2>
         <div className="h-1 w-1/2 bg-red-600"></div>
       </div>
+      </FadeIn>
 
+      {/* fadein animation  */}
+      <FadeIn duration = {150} >
       <div className="lg:flex-row flex flex-col items-center lg:gap-10">
         <img className="lg:h-100 lg:max-w-full lg:w-full max-w-100 w-80 pb-7" src={whoareweimg} alt="" />
         <p className="text-justify">
@@ -23,6 +28,7 @@ const whoarewe = () => {
           experiences to make every journey seamless and unforgettable.
         </p>
       </div>
+      </FadeIn>
 
       <div className="pt-7 flex justify-center">
         <Link to = "/about-us" >

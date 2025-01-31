@@ -1,5 +1,6 @@
 import React from 'react'
 import { conceirge, leisure, studyabroad, tourism, trainings, visa } from '../import'
+import FadeIn from './fadein'
 
 const Services = () => {
     const services = [
@@ -39,10 +40,12 @@ const Services = () => {
       <div className="lg:gap-15 grid grid-cols-2 gap-4">
         {services.map((service, index) => (
           <div key={index}>
+            <FadeIn duration = {100}>
             <div className=" bg-red-600 h-40">
               <img className="w-full h-26 object-cover" src={service.img} alt="" />
               <h3 className="text-white py-4 leading-none text-sm text-center ">{service.name}</h3>
             </div>
+            </FadeIn>
           </div>
         ))}
       </div>

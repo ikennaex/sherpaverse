@@ -5,6 +5,7 @@ import { Routes, Route} from "react-router-dom"
 import Whoarewepage from './Pages/Homepage/Whoarewepage'
 import Footer from './Components/Footer'
 import Contact from './Components/Contact'
+import Whychooseuspage from './Pages/Homepage/Whychooseuspage'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path = '/' element = {<Homepage />} />
         <Route path = '/about-us' element = {<Whoarewepage />} />
+        <Route path = '/whychooseus' element = {<Whychooseuspage />} />
       </Routes>
       <Contact />
       <Footer />

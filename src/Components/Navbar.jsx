@@ -16,7 +16,7 @@ const Navbar = () => {
       },
       {
         name: "Why choose Us",
-        link: "#whychooseus"
+        link: "/whychooseus"
       },
       {
         name: "Testimonials",
