@@ -3,34 +3,66 @@ import { heroimg } from '../import'
 import { FaWhatsapp } from "react-icons/fa6";
 import { MdOutlineMail } from "react-icons/md";
 import "./herosection.css"
-import { Link } from 'react-router';
-
 
 const Herosection = () => {
+
+  const images = [
+    {
+      imgUrl: "https://img.freepik.com/free-photo/travel-items-arrangement-still-life_23-2149617684.jpg?ga=GA1.1.2145612538.1736353082&semt=ais_incoming",
+      alt: "Travel img",
+    },
+    {
+      imgUrl: "https://img.freepik.com/free-photo/woman-checking-map-autumn-travel-destination_23-2148634143.jpg?ga=GA1.1.2145612538.1736353082&semt=ais_incoming",
+      alt: "Travel img",
+    },
+    {
+      imgUrl: "https://img.freepik.com/free-photo/trendy-looking-african-american-tourist-with-backpack-hat-sunglasses-studying-directions-using-city-guide-while-exploring-sights-landmarks-resort-town_273609-952.jpg?ga=GA1.1.2145612538.1736353082&semt=ais_incoming",
+      alt: "Travel img",
+    },
+    {
+      imgUrl: "https://img.freepik.com/free-photo/outdoor-back-shot-dark-skinned-tourist-with-leather-backpack-his-shoulders-holding-paper-guide-his-hands-facing-amazing-beautiful-view-european-sea-coast-standing-sightseeing-platform_273609-778.jpg?ga=GA1.1.2145612538.1736353082&semt=ais_incoming",
+      alt: "Travel img",
+    },
+  ]
   return (
-    <div className=' relative'>
-      <div className='flex justify-center'>
-        <div className='lg:h-lvh lg:w-full md:h-auto h-135 flex items-center justify-center overflow-hidden'>
+    <div className=' '>
+      <div className='flex justify-center '>
+        {/* this is the image background before  */}
+        {/* <div className='lg:h-lvh lg:w-full md:h-auto h-135 flex items-center justify-center overflow-hidden'>
           <img className='object-cover w-full h-full' src= {heroimg} alt="" />
         
           <div class="absolute inset-0 bg-black opacity-80"></div>
-        </div>
+        </div> */}
 
-        <div className='lg:px-40 lg:top-1/4.5 container mx-auto absolute top-1/3 px-7 '>
-        <h2 className='lg:text-6xl font-black text-3xl text-white pb-6 text-center slide-in-bottom'>SHERPAVERSE LTD</h2>
-        <p className='lg:text-2xl text-white text-center slide-in-left'>Sherpaverse Ltd is a travel concierge startup offering bespoke concierge services in luxury travel, visa assistance, study abroad, and M.I.C.E. tourism, leisure tourism and trainings</p>
+        <div className='lg:px-10 container mx-auto px-7 bg-gray-900 h-fit p-27 flex flex-col gap-5 justify-around'>
 
-        <div className='pt-6 flex items-center justify-center gap-6'>
+          <div className = "lg:w-160" >
+            <p className = "text-white ">WELCOME TO SHERPAVERSE LTD</p>
+        <h2 className='lg:text-5xl  leading-tighest font-black text-3xl text-white pb-6  slide-in-bottom'>DISCOVER THE FUTURE OF TRAVEL AND CONCEIERGE SERVICES IN NIGERIA</h2>
+        <p className='lg:text-sm  text-white lg:w-120 slide-in-left'>At Sherpaverse, we craft seamless, personalized experiences designed around your unique needs. With our expertise, global partnerships, and a commitment to excellence, we ensure every journey is smooth, exclusive, and unforgettable.</p>
+
+        <div className='pt-9 flex items-center  gap-6'>
           <a target='_blank' href="https://wa.me/2349057559292">
           <button className='lg:rounded-2xl lg:px-8 flex gap-2 items-center bg-red-600 p-4 rounded-3xl font-bold text-white'>
           <FaWhatsapp size={27} />
             Chat us</button>
           </a>
-          <button className=' lg:rounded-2xl lg:px-8 flex gap-2 items-center bg-red-600 p-4 rounded-3xl font-bold text-white'>
+          <button className=' lg:rounded-2xl lg:px-8 flex gap-2 items-center border-red-600 border-2 p-4 rounded-3xl font-bold text-white'>
           <MdOutlineMail size={27} />
             Email us</button>
         </div>
+          </div>
+
+        {/* Images  */}
+        <div className='grid grid-cols-2'>
+          {images.map((image, index) => (
+            <div key={index} className='flex justify-center'>
+              <img className='object-cover pr-2 lg:h-50 h-37 pt-5 w-80 slide-in-blurred-bottom' src={image.imgUrl} alt={image.alt} />
+            </div>
+          ))}
         </div>
+        </div>
+
 
   
     </div>

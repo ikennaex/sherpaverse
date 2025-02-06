@@ -5,7 +5,7 @@ import FadeIn from '../../Components/fadein'
 export const reasons = [
     {
         index: "01",
-        title: "Tailored to You",
+        title: "Tailored  You",
         desc: "We analyze your profile to create a custom travel, visa, education, or tourism plan that aligns perfectly with your goals."
     },
     {
@@ -49,6 +49,7 @@ const Whychooseuspage = () => {
         <h2 className="text-2xl w-full text-black">Why Choose Sherpaverse</h2>
         <div className="h-1 w-1/2 bg-red-600"></div>
       </div>
+        <p className='text-center mt-7'>At Sherpaverse, we craft seamless, personalized experiences designed around your unique needs. With our expertise, global partnerships, and a commitment to excellence, we ensure every journey is smooth, exclusive, and unforgettable.</p>
 
         {reasons.map((reason) => {
             return (

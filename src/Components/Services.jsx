@@ -1,5 +1,5 @@
 import React from 'react'
-import { conceirge, leisure, studyabroad, tourism, trainings, visa } from '../import'
+import { conceirge, leisure, sporttourism, studyabroad, tourism, trainings, visa } from '../import'
 import FadeIn from './fadein'
 
 const Services = () => {
@@ -27,6 +27,10 @@ const Services = () => {
         {
             name:"Trainings (TEFL/TESOL)",
             img: trainings,
+        },
+        {
+            name:"Sport Tourism",
+            img: sporttourism,
         },
     ]
   return (

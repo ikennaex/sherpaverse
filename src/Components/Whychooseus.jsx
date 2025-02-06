@@ -42,7 +42,7 @@ const Whychooseus = () => {
       </div>
       </FadeIn>
 
-      <p className='text-center text-white leading-none'>There are numerous reason why people choose SERPAVERSE and have never regretted there decision</p>
+      <p className='text-center text-white leading-none'>At Sherpaverse, we craft seamless, personalized experiences designed around your unique needs. With our expertise, global partnerships, and a commitment to excellence, we ensure every journey is smooth, exclusive, and unforgettable.</p>
 
       <div>
         {/* for mobile */}
