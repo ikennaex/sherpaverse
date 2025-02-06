@@ -37,11 +37,11 @@ const Herosection = () => {
         <div className='lg:px-10 container mx-auto px-7 bg-gray-900 h-fit p-27 flex flex-col gap-5 justify-around'>
 
           <div className = "lg:w-160" >
-            <p className = "text-red-600 ">WELCOME TO SHERPAVERSE LTD</p>
+            <p className = "text-red-600 font-bold">WELCOME TO SHERPAVERSE LTD</p>
         <h2 className='lg:text-5xl  leading-tighest font-black text-3xl text-white pb-6  slide-in-bottom'>DISCOVER THE FUTURE OF TRAVEL AND CONCEIERGE SERVICES IN NIGERIA</h2>
         <p className='lg:text-sm  text-white lg:w-120 slide-in-left'>At Sherpaverse, we craft seamless, personalized experiences designed around your unique needs. With our expertise, global partnerships, and a commitment to excellence, we ensure every journey is smooth, exclusive, and unforgettable.</p>
 
-        <div className='pt-9 flex items-center  gap-6'>
+        <div className='pt-9 flex items-center gap-6 slide-in-left2'>
           <a target='_blank' href="https://wa.me/2349057559292">
           <button className='lg:rounded-2xl lg:px-8 flex gap-2 items-center bg-red-600 p-4 rounded-3xl font-bold text-white'>
           <FaWhatsapp size={27} />
