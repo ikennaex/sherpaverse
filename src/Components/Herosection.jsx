@@ -8,7 +8,7 @@ const Herosection = () => {
 
   const images = [
     {
-      imgUrl: "https://img.freepik.com/free-photo/travel-items-arrangement-still-life_23-2149617684.jpg?ga=GA1.1.2145612538.1736353082&semt=ais_incoming",
+      imgUrl: "https://img.freepik.com/premium-photo/suitcase-with-famous-monuments-isolated-with-clouds-famous-buildings-landmarks-towers-travel_741269-8.jpg?ga=GA1.1.2145612538.1736353082&semt=ais_hybrid",
       alt: "Travel img",
     },
     {
@@ -20,7 +20,7 @@ const Herosection = () => {
       alt: "Travel img",
     },
     {
-      imgUrl: "https://img.freepik.com/free-photo/outdoor-back-shot-dark-skinned-tourist-with-leather-backpack-his-shoulders-holding-paper-guide-his-hands-facing-amazing-beautiful-view-european-sea-coast-standing-sightseeing-platform_273609-778.jpg?ga=GA1.1.2145612538.1736353082&semt=ais_incoming",
+      imgUrl: "https://img.freepik.com/premium-photo/untitled-design-5_1210786-40.jpg?ga=GA1.1.2145612538.1736353082&semt=ais_hybrid",
       alt: "Travel img",
     },
   ]
@@ -43,11 +43,11 @@ const Herosection = () => {
 
         <div className='pt-9 flex items-center gap-6 slide-in-left2'>
           <a target='_blank' href="https://wa.me/2349057559292">
-          <button className='lg:rounded-2xl lg:px-8 flex gap-2 items-center bg-red-600 p-4 rounded-3xl font-bold text-white'>
+          <button className='lg:rounded-2xl lg:px-8 flex gap-2 items-center bg-red-600 p-4 rounded-2xl font-bold text-white'>
           <FaWhatsapp size={27} />
             Chat us</button>
           </a>
-          <button className=' lg:rounded-2xl lg:px-8 flex gap-2 items-center border-red-600 border-2 p-4 rounded-3xl font-bold text-white'>
+          <button className=' lg:rounded-2xl lg:px-8 flex gap-2 items-center border-red-600 hover:bg-red-600 border-2 p-4 rounded-2xl font-bold text-white'>
           <MdOutlineMail size={27} />
             Email us</button>
         </div>

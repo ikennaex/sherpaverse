@@ -45,7 +45,7 @@ const Services = () => {
         {services.map((service, index) => (
           <div key={index}>
             <FadeIn duration = {100}>
-            <div className=" bg-red-600 h-40">
+            <div className=" bg-gray-900 h-40">
               <img className="w-full h-26 object-cover" src={service.img} alt="" />
               <h3 className="text-white py-4 leading-none text-sm text-center ">{service.name}</h3>
             </div>
