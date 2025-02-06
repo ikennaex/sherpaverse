@@ -6,6 +6,7 @@ import Whoarewepage from './Pages/Homepage/Whoarewepage'
 import Footer from './Components/Footer'
 import Contact from './Components/Contact'
 import Whychooseuspage from './Pages/Homepage/Whychooseuspage'
+import Blog from './Pages/Homepage/Blog'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <Route path = '/' element = {<Homepage />} />
         <Route path = '/about-us' element = {<Whoarewepage />} />
         <Route path = '/whychooseus' element = {<Whychooseuspage />} />
+        <Route path = '/blog' element = {<Blog />} />
       </Routes>
       <Contact />
       <Footer />
