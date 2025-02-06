@@ -34,7 +34,7 @@ const Herosection = () => {
           <div class="absolute inset-0 bg-black opacity-80"></div>
         </div> */}
 
-        <div className='lg:px-10 container mx-auto px-7 bg-gray-900 h-fit p-27 flex flex-col gap-5 justify-around'>
+        <div className='lg:px-10 lg:flex-row container mx-auto px-7 bg-gray-900 h-fit p-27 flex flex-col gap-5 justify-around'>
 
           <div className = "lg:w-160" >
             <p className = "text-red-600 font-bold">WELCOME TO SHERPAVERSE LTD</p>
@@ -57,7 +57,7 @@ const Herosection = () => {
         <div className='grid grid-cols-2'>
           {images.map((image, index) => (
             <div key={index} className='flex justify-center'>
-              <img className='object-cover pr-2 lg:h-50 h-37 pt-5 w-80 slide-in-blurred-bottom' src={image.imgUrl} alt={image.alt} />
+              <img className='object-cover pr-2 lg:h-55 lg:pt-0 h-37 pt-5 w-80 slide-in-blurred-bottom' src={image.imgUrl} alt={image.alt} />
             </div>
           ))}
         </div>
