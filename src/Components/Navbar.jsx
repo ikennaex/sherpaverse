@@ -72,13 +72,13 @@ const Navbar = () => {
             {menuItems.map((menu) => {
               return (
               menu.link.includes("#") ? 
-              <a href={menu.link} className='nav-link'>
+              <a href={menu.link} className='nav-link border-b-2 '>
               {menu.name}
               {/* {menu.name} */}
             </a>
 
               :
-              <Link to={menu.link} className='nav-link'>
+              <Link to={menu.link} className='nav-link border-b-2'>
                 {menu.name}
                 {/* {menu.name} */}
               </Link>
