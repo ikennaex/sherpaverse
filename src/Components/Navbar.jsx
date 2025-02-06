@@ -70,17 +70,21 @@ const Navbar = () => {
             {open && 
           <div className='flex flex-col gap-5 py-5'>
             {menuItems.map((menu) => {
+              return (
               menu.link.includes("#") ? 
               <a href={menu.link} className='nav-link'>
-              <p className='nav-menu hover:text-red-600'>{menu.name}</p>
+              {menu.name}
               {/* {menu.name} */}
             </a>
 
               :
               <Link to={menu.link} className='nav-link'>
-                <p className='nav-menu hover:text-red-600'>{menu.name}</p>
+                {menu.name}
                 {/* {menu.name} */}
               </Link>
+              )
+
+              
             })}
           </div>
           }
