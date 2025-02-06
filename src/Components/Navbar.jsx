@@ -42,9 +42,12 @@ const Navbar = () => {
         </Link>
         <div className='hidden gap-20 mx-auto lg:flex cursor-pointer'>
             {menuItems.map(menu => (
-              <a href= {menu.link}>
+              <Link to={menu.link} className='nav-link'>
                 <p className='nav-menu hover:text-red-600'>{menu.name}</p>
-              </a>
+                {/* {menu.name} */}
+              </Link>
+              // <a href= {menu.link}>
+              // </a>
             ))}
         </div>
 
