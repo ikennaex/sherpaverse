@@ -9,7 +9,8 @@ import studyabroad from "./assets/studyabroad.jpg"
 import tourism from "./assets/tourism.jpg"
 import whychooseimg from "./assets/whychooseimg.jpg"
 import sporttourism from "./assets/sporttourism.jpg"
+import continents from "./assets/continents.jpg"
 
 export {
-    logo, heroimg, whoareweimg, visa, conceirge,leisure,trainings, studyabroad, tourism, whychooseimg, sporttourism
+    logo, heroimg, whoareweimg, visa, conceirge,leisure,trainings, studyabroad, tourism, whychooseimg, sporttourism, continents
 }
