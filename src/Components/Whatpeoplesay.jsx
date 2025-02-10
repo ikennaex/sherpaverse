@@ -38,12 +38,12 @@ const Whatpeoplesay = () => {
       </div>
       </FadeIn>
 
-      <div className='flex gap-4 overflow-scroll '>
+      <div className='flex gap-4 overflow-scroll  '>
         {testimonials.map((item) => {
             return (
               <FadeIn duration = {100} >
-              <div className="lg:flex-col lg:items-start lg:w-150 bg-stone-200 w-lvw flex gap-4 flex-col justify-center items-center pt-5">
-                <div className="lg:h-5 lg:w-3 h-3 w-10 rounded-full bg-red-600"></div>
+              <div className="lg:flex-col lg:w-150 bg-stone-200 w-lvw flex gap-4 flex-col justify-center items-center pt-5">
+                <div className="lg:h-2.5 lg:w-9 h-3 w-10 rounded-full bg-red-600"></div>
 
                 <div className='px-9'>
                 <p className="text-gray-800 ">{item.testimonial}</p>

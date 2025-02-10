@@ -4,3 +4,8 @@
 body {
     font-family: "Lexend Deca", serif;
 }
+
+::-webkit-scrollbar {
+    display: none;
+  }
+  
