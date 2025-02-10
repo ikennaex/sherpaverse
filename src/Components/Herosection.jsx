@@ -38,8 +38,8 @@ const Herosection = () => {
 
           <div className = "lg:w-160" >
             <p className = "text-red-600 font-bold">WELCOME TO SHERPAVERSE LTD</p>
-        <h2 className='lg:text-5xl  leading-tighest font-black text-3xl text-white pb-6  slide-in-bottom'>DISCOVER THE FUTURE OF TRAVEL AND CONCEIERGE SERVICES IN NIGERIA</h2>
-        <p className='lg:text-sm  text-white lg:w-120 slide-in-left'>At Sherpaverse, we craft seamless, personalized experiences designed around your unique needs. With our expertise, global partnerships, and a commitment to excellence, we ensure every journey is smooth, exclusive, and unforgettable.</p>
+        <h2 className='lg:text-5xl  leading-tighest font-black text-3xl text-white pb-6  slide-in-bottom'>ELEVATING TRAVEL CONCIERGE SERVICES IN NIGERIA…</h2>
+        <p className='lg:text-sm  text-white lg:w-120 slide-in-left'>At Sherpaverse, inspired by the legendary Sherpas of the Himalayas - your trusted guides to extraordinary journeys, we specialize in delivering seamless, tailor-made travel concierge experiences designed to meet your unique needs. Through our expertise, global partnerships, and commitment to excellence, we ensure every journey is smooth, exclusive, and truly unforgettable.</p>
 
         <div className='pt-9 flex items-center gap-6 slide-in-left2'>
           <a target='_blank' href="https://wa.me/2349057559292">

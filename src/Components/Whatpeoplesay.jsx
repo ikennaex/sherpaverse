@@ -15,6 +15,18 @@ const Whatpeoplesay = () => {
             testimonial: "Thanks to SherpaVerse Ltd, I’m now going to study in Finland. Their seamless guidance made the process incredibly easy. Highly recommended",
             name: "Ezekiel Ademola, Nigeria"
         },
+        {
+            testimonial: "SherpaVerse Ltd handled our UK visitor visa process with professionalism and efficiency. We were able to focus on our religious tour with peace of mind. We highly recommend their services.",
+            name: "Pastor Mr. & Mrs. Olushola, Nigeria"
+        },
+        {
+            testimonial: "Working with SherpaVerse Ltd has been a seamless and rewarding experience. Their professionalism, efficiency, and industry expertise have added great value to our business. A trusted partner we highly recommend!",
+            name: "Edeani Moses Onyebuchi, Edmoon Travels Nigeria"
+        },
+        {
+            testimonial: "SherpaVerse Ltd is professional, Reliable and friendly. Letting them handle my study abroad plans was the best decision I made. They provided me with all the necessary support from the initial inquiry to the final enrollment. I felt confident every step of the way and am now thriving in my academic journey in Canada",
+            name: "Daniel Kolawole, Canada"
+        },
     ]
   return (
     <div id='testimonials' className='lg:px-40 lg:py-20 container mx-auto pb-7 px-7'>
@@ -26,14 +38,20 @@ const Whatpeoplesay = () => {
       </div>
       </FadeIn>
 
-      <div className='flex overflow-scroll'>
+      <div className='flex gap-4 overflow-scroll '>
         {testimonials.map((item) => {
             return (
               <FadeIn duration = {100} >
-              <div className="lg:flex-col lg:items-start w-lvw flex gap-4 flex-col justify-center items-center py-5 ">
+              <div className="lg:flex-col lg:items-start lg:w-150 bg-stone-200 w-lvw flex gap-4 flex-col justify-center items-center pt-5">
                 <div className="lg:h-5 lg:w-3 h-3 w-10 rounded-full bg-red-600"></div>
-                <p className="text-gray-800 ml-5">{item.testimonial}</p>
-                <p className="text-gray-600 ml-5 font-bold">{item.name}</p>
+
+                <div className='px-9'>
+                <p className="text-gray-800 ">{item.testimonial}</p>
+                </div>
+
+                <div className='bg-red-600 w-full h-full'>
+                <p className="text-white py-3 ml-5 font-bold">{item.name}</p>
+                </div>
               </div>
               </FadeIn>
             )
